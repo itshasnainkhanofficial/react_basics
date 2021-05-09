@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+
+    <title>Hello World</title>
+
+    <!-- cdn links -->
+    <!-- https://reactjs.org/docs/cdn-links.html -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- babel for compiling JSX syntex to javascript -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+
+
+
+
+    <div id="root"></div>
+
+
+
+     <!-- without JSX syntex -->
+    <!-- <script type="text/javascript">
+    const element = React.createElement("div" , {} , "Alhamdulillah")
+      ReactDOM.render(
+        element,
+        document.getElementById('root')
+      );
+
+    </script> -->
+
+
+     <!-- with JSX syntex -->
+    <script type="text/babel">
+
+    const element = ( <h1>
+      <div>Alhamdulillah</div>
+      </h1>) ;
+
+      // we can call function and arthimetic expresssion in JSX
+      const element2 = "hasnain";
+      const element3 = <h1>{name()}</h1>
+
+      const number1 = 1;
+      function name() {
+        if(element2 == "hasnain") return "welcome hasnain ";
+        else "who you are?";
+      }
+
+
+      // use camel case for attribute because JSX more closer to js than html
+      const element4 = (
+        <h1 className="myclass">Bilal</h1> 
+      )
+
+      const element5 = (
+        <h1>{2+5}</h1>
+      )
+      ReactDOM.render(
+        element5,
+        document.getElementById('root')
+      );
+
+    </script>
+  </body>
+</html>
