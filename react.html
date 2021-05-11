@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
 
-
     <title>Hello World</title>
 
     <!-- cdn links -->
@@ -15,15 +14,10 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
-
-
-
-
     <div id="root"></div>
+    <div id="root2"></div>
 
-
-
-     <!-- without JSX syntex -->
+    <!-- without JSX syntex -->
     <!-- <script type="text/javascript">
     const element = React.createElement("div" , {} , "Alhamdulillah")
       ReactDOM.render(
@@ -33,15 +27,13 @@
 
     </script> -->
 
+    <!-- with JSX syntex -->
+    <!-- <script type="text/babel">
+      const element = ( <h1>
+        <div>Alhamdulillah</div>
+        </h1>) ;
 
-     <!-- with JSX syntex -->
-    <script type="text/babel">
-
-    const element = ( <h1>
-      <div>Alhamdulillah</div>
-      </h1>) ;
-
-      // we can call function and arthimetic expresssion in JSX
+      we can call function and arthimetic expresssion in JSX
       const element2 = "hasnain";
       const element3 = <h1>{name()}</h1>
 
@@ -51,10 +43,9 @@
         else "who you are?";
       }
 
-
-      // use camel case for attribute because JSX more closer to js than html
+      use camel case for attribute because JSX more closer to js than html
       const element4 = (
-        <h1 className="myclass">Bilal</h1> 
+        <h1 className="myclass">Bilal</h1>
       )
 
       const element5 = (
@@ -64,7 +55,43 @@
         element5,
         document.getElementById('root')
       );
+    </script> -->
 
-    </script>
+
+
+    <!-- withou react -->
+    <!-- <script>
+      const elem = `<h1>without react</h1>`;
+      document.getElementById("root").innerHTML = elem;
+    </script> -->
+
+
+<!-- virtualDom -->
+    <!-- <script>
+
+      function renderboth() {
+        const element = `<div>
+          
+          <h1>working using javascript</h1>
+          <input type="text">
+          <div>${new Date().toLocaleTimeString()}</div>
+         </div>`;
+
+        const element2 = React.createElement(
+          "div",
+          null,
+          React.createElement("h1", null, "working using react"),
+          React.createElement("input", { type: "text" }),
+
+          React.createElement("div", null, new Date().toLocaleTimeString())
+        );
+
+        document.getElementById("root").innerHTML = element; //using simple javascript
+
+        ReactDOM.render(element2, document.getElementById("root2")); // using react
+      }
+
+      setInterval(renderboth, 1000);
+    </script> -->
   </body>
 </html>

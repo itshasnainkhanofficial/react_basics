@@ -7,6 +7,8 @@
     2. <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     3. <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-3. React without babel
-4. React with babel
+3. React without babel or without JSX
+4. React with babel or with JSX
 5. React JSX syntax
+6. without react
+7. VirtualDom concept
