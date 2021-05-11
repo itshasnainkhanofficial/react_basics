@@ -93,3 +93,4 @@
         "javascript": "javascriptreact"
     }
     ```
+12. Use Of class and functional component
