@@ -94,4 +94,4 @@
     }
     ```
 12. Use Of class and functional component
-13. props in class and functional component
+13. props in class and functional component , use of default, arrow function, props as immutable, React Library
