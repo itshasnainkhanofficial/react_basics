@@ -1,4 +1,7 @@
 import './App.css';
+// import Objectmodify from './components/state/Objectmodify';
+// import Count from './components/state/Counter';
+// import Message from './components/state/message';
 // import Button from './components/button/usingfunction';
 // import ClassButton from './components/button/usingclass';
 // import Functiongreet from './components/props/Functiongreet';
@@ -45,6 +48,11 @@ function App() {
 
       {/* by modified name using default keyword */}
       {/* <Withdefault name="Arsalan" question="Are you Engineer?"></Withdefault> */}
+
+      {/* <Message /> */}
+
+      {/* <Count numbertoinc={5}/> */}
+      {/* <Objectmodify /> */}
     </div>
   );
 }

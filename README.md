@@ -95,3 +95,19 @@
     ```
 12. Use Of class and functional component
 13. props in class and functional component , use of default, arrow function, props as immutable, React Library
+14. state v/s props
+    - props are passed to components while state managed in component
+    - props are function paramters while state are declared in body
+    - props are immutable while state are mutable
+    - in functional components props are used using just props
+    - in class components props are used using this.props
+    - in functional components states are used using useState
+    - in class components states are used using this.state
+15. state
+    1. create state and initilize it
+    2. super is used because call is made to base class constructor
+    3. simply display message just like props
+    4. then change message on button click using setState function
+    5. Update using previous state
+    6. update using previous state and props
+    7. update state using spread operator
