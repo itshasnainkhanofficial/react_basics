@@ -1,4 +1,6 @@
 import './App.css';
+import ClassGreet from './components/Destructuring/ClassGreet';
+// import Greet from './components/Destructuring/Greet';
 // import Objectmodify from './components/state/Objectmodify';
 // import Count from './components/state/Counter';
 // import Message from './components/state/message';
@@ -53,6 +55,10 @@ function App() {
 
       {/* <Count numbertoinc={5}/> */}
       {/* <Objectmodify /> */}
+
+      {/* <Greet name="Hasnain" lastname="khan"/> */}
+      <ClassGreet name="Hasnain" lastname="khan"/>
+
     </div>
   );
 }

@@ -111,3 +111,7 @@
     5. Update using previous state
     6. update using previous state and props
     7. update state using spread operator
+    8. don't update state directly instead use setState to update state
+16. Destructuring props and state for code readability
+    1. there are two ways to destructure in functional component
+    2. in class component destructure it in render method
