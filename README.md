@@ -117,4 +117,6 @@
     1. there are two ways to destructure in functional component
     2. in class component destructure it in render method
 17. Event Handling
-    1. 
+    1. don't use parenthesis in event handler 
+    2. in class component don't use function keyword
+    3. use onClick instead of onclick

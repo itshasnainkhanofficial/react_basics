@@ -1,5 +1,6 @@
 import './App.css';
-import Functionalevent from './components/5-event-handling/functionalevent';
+import ClassEvent from './components/5-event-handling/ClassEvent';
+// import Functionalevent from './components/5-event-handling/functionalevent';
 // import ClassGreet from './components/4-Destructuring/ClassGreet';
 // import Greet from './components/Destructuring/Greet';
 // import Objectmodify from './components/3-state/Objectmodify';
@@ -59,7 +60,8 @@ function App() {
       {/* <Greet name="Hasnain" lastname="khan"/> */}
       {/* <ClassGreet name="Hasnain" lastname="khan"/> */}
       
-      <Functionalevent />
+      {/* <Functionalevent /> */}
+      <ClassEvent/>
     </div>
   );
 }
