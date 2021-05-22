@@ -94,6 +94,7 @@
     }
     ```
 12. Use Of class and functional component
+    1. Note that, Component Shuold be in uppercase
 13. props in class and functional component , use of default, arrow function, props as immutable, React Library
 14. state v/s props
     - props are passed to components while state managed in component
@@ -115,3 +116,5 @@
 16. Destructuring props and state for code readability
     1. there are two ways to destructure in functional component
     2. in class component destructure it in render method
+17. Event Handling
+    1. 

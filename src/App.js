@@ -1,15 +1,15 @@
 import './App.css';
-import ClassGreet from './components/Destructuring/ClassGreet';
+import Functionalevent from './components/5-event-handling/functionalevent';
+// import ClassGreet from './components/4-Destructuring/ClassGreet';
 // import Greet from './components/Destructuring/Greet';
-// import Objectmodify from './components/state/Objectmodify';
-// import Count from './components/state/Counter';
-// import Message from './components/state/message';
-// import Button from './components/button/usingfunction';
-// import ClassButton from './components/button/usingclass';
-// import Functiongreet from './components/props/Functiongreet';
-// import Classgreet from './components/props/Classgreet';
-// import {Functiongreet} from './components/props/Functiongreet'
-// import Withdefault from './components/props/Functiongreet'
+// import Objectmodify from './components/3-state/Objectmodify';
+// import Count from './components/3-state/Counter';
+// import Message from './components/3-state/message';
+// import Button from './components/1-button/usingfunction';
+// import ClassButton from './components/1-button/usingclass';
+// import Functiongreet from './components/2-props/Functiongreet';
+// import Classgreet from './components/2-props/Classgreet';
+// import Withdefault from './components/2-props/Functiongreet'
 
 function App() {
   return (
@@ -57,8 +57,9 @@ function App() {
       {/* <Objectmodify /> */}
 
       {/* <Greet name="Hasnain" lastname="khan"/> */}
-      <ClassGreet name="Hasnain" lastname="khan"/>
-
+      {/* <ClassGreet name="Hasnain" lastname="khan"/> */}
+      
+      <Functionalevent />
     </div>
   );
 }
