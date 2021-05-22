@@ -1,5 +1,10 @@
 import './App.css';
-import ClassEvent from './components/5-event-handling/ClassEvent';
+// import ArrowFunctionForFunction from './components/eventBinding/ArrowFunctionForFunction4';
+// import OfficialDocApprch from './components/eventBinding/OfficialDocApprch';
+// import ArrowFuncInRender from './components/eventBinding/ArrowFuncInRender3';
+// import FirstSolution from './components/eventBinding/BindingInRender2'; 
+// import ClassEvent from './components/5-event-handling/ClassEvent';
+// import Problem from './components/eventBinding/Problem1';
 // import Functionalevent from './components/5-event-handling/functionalevent';
 // import ClassGreet from './components/4-Destructuring/ClassGreet';
 // import Greet from './components/Destructuring/Greet';
@@ -61,7 +66,15 @@ function App() {
       {/* <ClassGreet name="Hasnain" lastname="khan"/> */}
       
       {/* <Functionalevent /> */}
-      <ClassEvent/>
+      {/* <ClassEvent/> */}
+      {/* <Problem/> */}
+      {/* <FirstSolution/> */}
+      {/* <ArrowFuncInRender/> */}
+      
+      {/* <OfficialDocApprch/> */}
+      {/* <ArrowFunctionForFunction/> */}
+
+      
     </div>
   );
 }

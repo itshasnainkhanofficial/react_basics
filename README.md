@@ -120,3 +120,8 @@
     1. don't use parenthesis in event handler 
     2. in class component don't use function keyword
     3. use onClick instead of onclick
+16. Binding Event Handlers 
+    1. Binding In Render Method
+    2. Arrow Function In Render method
+    3. Official Docs Apprch Binding in constructor
+    4. As class property as arrow function
