@@ -125,3 +125,4 @@
     2. Arrow Function In Render method
     3. Official Docs Apprch Binding in constructor
     4. As class property as arrow function
+17. Methods as props (child )
