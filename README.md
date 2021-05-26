@@ -125,4 +125,8 @@
     2. Arrow Function In Render method
     3. Official Docs Apprch Binding in constructor
     4. As class property as arrow function
-17. Methods as props (child )
+17. Component Communication
+    1. Parent to Child (simple)
+    2. Child to parent (tricky)
+        1. we can not send data from child to parent but we can send method
+        2. so in method parameter we pass data from parent to child

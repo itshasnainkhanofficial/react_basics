@@ -1,4 +1,6 @@
 import './App.css';
+// import Child from './components/7-CompCommunication/ChildToParent/Child';
+import Parent from './components/7-CompCommunication/ChildToParent/Parent';
 // import Parentcomp from './components/7-CompCommunication/MethodFromParentToChild/Parentcomp';
 // import ArrowFunctionForFunction from './components/6-eventBinding/ArrowFunctionForFunction4';
 // import OfficialDocApprch from './components/6-eventBinding/OfficialDocApprch';
@@ -80,8 +82,11 @@ function App() {
 
       {/* <Parentcomp/> */}
       {/* using the following parentcompnent i want to call method from child to parent component*/}
+      {/* its called lifting up state */}
+      <Parent/>
+      {/* <Child/> */}
 
-      
+
     </div>
   );
 }

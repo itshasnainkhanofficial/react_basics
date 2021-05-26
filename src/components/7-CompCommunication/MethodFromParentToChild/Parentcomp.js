@@ -10,20 +10,8 @@ export default class Parentcomp extends Component {
         }
     }
     
-    // GreetParent = () => {
-    //     console.log(`Hello ${this.state.parentname}`)
-    // }
-    // render() {
-    //     return (
-    //         <div>
-    //             <Childcomp GreetHandler={this.GreetParent}/>
-    //         </div>
-    //     )
-    // }
-
-    // now to get child parameter
-    GreetParent = (childparam) => {
-        console.log(`Hello ${this.state.parentname} from ${childparam}`)
+    GreetParent = () => {
+        console.log(`Hello ${this.state.parentname}`)
     }
     render() {
         return (
@@ -32,4 +20,16 @@ export default class Parentcomp extends Component {
             </div>
         )
     }
+
+    // // now to get child parameter
+    // GreetParent = (childparam) => {
+    //     console.log(`Hello ${this.state.parentname} from ${childparam}`)
+    // }
+    // render() {
+    //     return (
+    //         <div>
+    //             <Childcomp GreetHandler={this.GreetParent}/>
+    //         </div>
+    //     )
+    // }
 }
