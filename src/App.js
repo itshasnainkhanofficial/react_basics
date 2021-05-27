@@ -1,6 +1,10 @@
 import './App.css';
+import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
+// import Ternary from './components/8-Conditional_rendering/Ternary';
+// import ElementVariables from "./components/8-Conditional_rendering/ElementVariables";
+// import IfElese from './components/8-Conditional_rendering/IfElese';
 // import Child from './components/7-CompCommunication/ChildToParent/Child';
-import Parent from './components/7-CompCommunication/ChildToParent/Parent';
+// import Parent from './components/7-CompCommunication/ChildToParent/Parent';
 // import Parentcomp from './components/7-CompCommunication/MethodFromParentToChild/Parentcomp';
 // import ArrowFunctionForFunction from './components/6-eventBinding/ArrowFunctionForFunction4';
 // import OfficialDocApprch from './components/6-eventBinding/OfficialDocApprch';
@@ -83,10 +87,16 @@ function App() {
       {/* <Parentcomp/> */}
       {/* using the following parentcompnent i want to call method from child to parent component*/}
       {/* its called lifting up state */}
-      <Parent/>
+      {/* <Parent/> */}
       {/* <Child/> */}
 
+      {/* <IfElese/> */}
 
+      {/* <ElementVariables/> */}
+      
+      {/* <Ternary/> */}
+      <ShortCircuit/>
+      
     </div>
   );
 }

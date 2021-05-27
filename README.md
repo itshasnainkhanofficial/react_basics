@@ -130,3 +130,10 @@
     2. Child to parent (tricky)
         1. we can not send data from child to parent but we can send method
         2. so in method parameter we pass data from parent to child
+18. Conditional Rendering
+    1. if/else
+        1. if/else not work inside jsx
+    2. Element variables
+    3. Ternary conditional operator
+    4. Short circuit operator
+        1. For something or nothing logic
