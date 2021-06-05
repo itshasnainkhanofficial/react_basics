@@ -137,3 +137,5 @@
     3. Ternary conditional operator
     4. Short circuit operator
         1. For something or nothing logic
+19. Use id as key in list
+    1. index of array can cause rendering problem when adding or sorting

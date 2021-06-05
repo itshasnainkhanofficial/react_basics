@@ -1,5 +1,6 @@
 import './App.css';
-import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
+import List from './components/9-list/1-List';
+// import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
 // import Ternary from './components/8-Conditional_rendering/Ternary';
 // import ElementVariables from "./components/8-Conditional_rendering/ElementVariables";
 // import IfElese from './components/8-Conditional_rendering/IfElese';
@@ -95,8 +96,11 @@ function App() {
       {/* <ElementVariables/> */}
       
       {/* <Ternary/> */}
-      <ShortCircuit/>
+      {/* <ShortCircuit/> */}
       
+
+
+      <List/>
     </div>
   );
 }
