@@ -21,7 +21,7 @@ class BindingInRender extends Component {
                 {this.state.greetMsg}
                 {/* binding like this will cause re-ranering problem when any state change */}
                 {/* not good for large app or component this have performance problem */}
-                <button onClick={this.Greet} className="bg-indigo-300 text-white px-5 py-3 rounded-full hover:bg-indigo-600">Click</button>
+                <button onClick={this.Greet.bind(this)} className="bg-indigo-300 text-white px-5 py-3 rounded-full hover:bg-indigo-600">Click</button>
             </div>
         )
     }
