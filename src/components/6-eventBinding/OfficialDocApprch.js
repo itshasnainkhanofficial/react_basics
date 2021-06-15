@@ -23,7 +23,7 @@ export default class OfficialDocApprch extends Component {
                 {this.state.greetMsg}
                 {/* Official Docs Approach */}
                 {/* Because binding happend at once in constructor this is better than binding in render method */}
-                <button onClick={this.Greet.bind(this)} className="bg-indigo-300 text-white px-5 py-3 rounded-full hover:bg-indigo-600">Click</button>
+                <button onClick={this.Greet} className="bg-indigo-300 text-white px-5 py-3 rounded-full hover:bg-indigo-600">Click</button>
             </div>
         )
     }
