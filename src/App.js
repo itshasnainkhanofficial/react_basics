@@ -24,7 +24,7 @@ import './App.css';
 // import Functiongreet from './components/2-props/Functiongreet';
 // import Classgreet from './components/2-props/Classgreet';
 // import Withdefault from './components/2-props/Functiongreet'
-
+import StylesheetParent0 from './components/10-StylingComp/StylesheetParent0'
 function App() {
   return (
     <div className="container mx-auto">
@@ -100,6 +100,7 @@ function App() {
       
       {/* <List/> */}
 
+      <StylesheetParent0/>
       
     </div>
   );

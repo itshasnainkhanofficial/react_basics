@@ -139,3 +139,5 @@
         1. For something or nothing logic
 19. Use id as key in list
     1. index of array can cause rendering problem when adding or sorting
+20. Css styling, inline , module  
+20. naming convention for css module style sheet, file name should end with module.css
