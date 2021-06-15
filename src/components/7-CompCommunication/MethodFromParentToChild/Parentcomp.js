@@ -21,15 +21,4 @@ export default class Parentcomp extends Component {
         )
     }
 
-    // // now to get child parameter
-    // GreetParent = (childparam) => {
-    //     console.log(`Hello ${this.state.parentname} from ${childparam}`)
-    // }
-    // render() {
-    //     return (
-    //         <div>
-    //             <Childcomp GreetHandler={this.GreetParent}/>
-    //         </div>
-    //     )
-    // }
 }

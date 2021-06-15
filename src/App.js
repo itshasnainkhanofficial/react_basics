@@ -1,5 +1,5 @@
 import './App.css';
-import List from './components/9-list/1-List';
+// import List from './components/9-list/1-List';
 // import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
 // import Ternary from './components/8-Conditional_rendering/Ternary';
 // import ElementVariables from "./components/8-Conditional_rendering/ElementVariables";
@@ -98,9 +98,9 @@ function App() {
       {/* <Ternary/> */}
       {/* <ShortCircuit/> */}
       
+      {/* <List/> */}
 
-
-      <List/>
+      
     </div>
   );
 }
