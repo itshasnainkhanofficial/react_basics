@@ -24,7 +24,8 @@ import './App.css';
 // import Functiongreet from './components/2-props/Functiongreet';
 // import Classgreet from './components/2-props/Classgreet';
 // import Withdefault from './components/2-props/Functiongreet'
-import StylesheetParent0 from './components/10-StylingComp/StylesheetParent0'
+// import StylesheetParent0 from './components/10-StylingComp/StylesheetParent0'
+import Form1 from './components/11-formHandling/Form1'
 function App() {
   return (
     <div className="container mx-auto">
@@ -100,7 +101,9 @@ function App() {
       
       {/* <List/> */}
 
-      <StylesheetParent0/>
+      {/* <StylesheetParent0/> */}
+
+      <Form1/>
       
     </div>
   );
