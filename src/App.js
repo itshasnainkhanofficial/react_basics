@@ -1,4 +1,5 @@
 import './App.css';
+// import LifeCycleParent1 from './components/12-lifecycle/LifeCycleParent1';
 // import List from './components/9-list/1-List';
 // import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
 // import Ternary from './components/8-Conditional_rendering/Ternary';
@@ -19,13 +20,15 @@ import './App.css';
 // import Objectmodify from './components/3-state/Objectmodify';
 // import Count from './components/3-state/Counter';
 // import Message from './components/3-state/message';
-// import Button from './components/1-button/usingfunction';
-// import ClassButton from './components/1-button/usingclass';
+// import Button from './components/1-classfuncdiff/usingfunction';
+// import ClassButton from './components/1-classfuncdiff/usingclass';
 // import Functiongreet from './components/2-props/Functiongreet';
 // import Classgreet from './components/2-props/Classgreet';
 // import Withdefault from './components/2-props/Functiongreet'
 // import StylesheetParent0 from './components/10-StylingComp/StylesheetParent0'
-import Form1 from './components/11-formHandling/Form1'
+// import Form1 from './components/11-formHandling/Form1'
+import LifeCycleA from './components/13-OrderLifeCycleMountUpdating/LifeCycleA';
+
 function App() {
   return (
     <div className="container mx-auto">
@@ -103,8 +106,12 @@ function App() {
 
       {/* <StylesheetParent0/> */}
 
-      <Form1/>
+      {/* <Form1/> */}
       
+
+      {/* <LifeCycleParent1/> */}
+
+      <LifeCycleA/>
     </div>
   );
 }

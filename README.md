@@ -141,3 +141,9 @@
     1. index of array can cause rendering problem when adding or sorting
 20. Css styling, inline , module  
 20. naming convention for css module style sheet, file name should end with module.css
+21. lifecycle methods only for class components while in functional component we use useEffect hook as lifecyle
+    - There are three phases of react component
+        1. mounting (render on page)
+        2. updating (if props cause compoent re-render, if component state change)
+        3. unmounting (when you hide a component or no longer want component)
+22. Order of mounting lifecycle method
