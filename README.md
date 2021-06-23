@@ -148,3 +148,8 @@
         3. unmounting (when you hide a component or no longer want component)
 22. Order of mounting lifecycle method
 23. Fragments group list of childern without adding extra node to the DOM
+24. Context api provides a way to pass data through the component tree without having to pass props down manually at every level
+25. There are three steps to implement context
+    1. Create Context
+    2. Provide Context (In the parent compoent so that child can access them)
+    3. Consume the context Value (using a function which return valid jsx)

@@ -31,9 +31,11 @@ import './App.css';
 // import Fragment1 from './components/14-Fragments/Fragment1'
 // import Table2 from './components/14-Fragments/Table2'
 // import Columns3 from './components/14-Fragments/Columns3'
+import ParentContext1 from './components/15-Context/ParentContext1'
 function App() {
   return (
     <div className="container mx-auto">
+      <ParentContext1/>
       {/* <Columns3/> */}
       {/* <Table2/> */}
 
