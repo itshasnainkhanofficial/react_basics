@@ -147,3 +147,4 @@
         2. updating (if props cause compoent re-render, if component state change)
         3. unmounting (when you hide a component or no longer want component)
 22. Order of mounting lifecycle method
+23. Fragments group list of childern without adding extra node to the DOM

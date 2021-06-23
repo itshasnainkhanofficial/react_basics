@@ -27,11 +27,16 @@ import './App.css';
 // import Withdefault from './components/2-props/Functiongreet'
 // import StylesheetParent0 from './components/10-StylingComp/StylesheetParent0'
 // import Form1 from './components/11-formHandling/Form1'
-import LifeCycleA from './components/13-OrderLifeCycleMountUpdating/LifeCycleA';
-
+// import LifeCycleA from './components/13-OrderLifeCycleMountUpdating/LifeCycleA';
+// import Fragment1 from './components/14-Fragments/Fragment1'
+// import Table2 from './components/14-Fragments/Table2'
+// import Columns3 from './components/14-Fragments/Columns3'
 function App() {
   return (
     <div className="container mx-auto">
+      {/* <Columns3/> */}
+      {/* <Table2/> */}
+
       {/* <Button/>
       <ClassButton/> */}
 
@@ -111,7 +116,9 @@ function App() {
 
       {/* <LifeCycleParent1/> */}
 
-      <LifeCycleA/>
+      {/* <LifeCycleA/> */}
+
+      {/* <Fragment1/> */}
     </div>
   );
 }
