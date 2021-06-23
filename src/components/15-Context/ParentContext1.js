@@ -12,7 +12,7 @@ import ComponentA from './ComponentA'
 
 
 // import UserProvider from './UserContext' don't do this
-import {UserProvider} from './UserContext'
+// import {UserProvider} from './UserContext'
 // function ParentContext1() {
 //     return (
 //         <div>
