@@ -156,3 +156,4 @@
 26. Higher Order components are used to make code DRY
     1. Higher Order Components are the functions which takes a component as argument and returna a new enhanced component
 27. Pure components are used to render a component if the state or props is changed
+28. Memo also works just like pure component but its for functional component
