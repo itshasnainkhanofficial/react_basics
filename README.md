@@ -153,3 +153,6 @@
     1. Create Context
     2. Provide Context (In the parent compoent so that child can access them)
     3. Consume the context Value (using a function which return valid jsx)
+26. Higher Order components are used to make code DRY
+    1. Higher Order Components are the functions which takes a component as argument and returna a new enhanced component
+27. Pure components are used to render a component if the state or props is changed

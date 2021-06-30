@@ -33,11 +33,13 @@ import './App.css';
 // import Columns3 from './components/14-Fragments/Columns3'
 // import ParentContext1 from './components/15-Context/ParentContext1'
 // import ParentWithoutHOC1 from './components/16-HOC/1-WithoutHOC/ParentWithoutHOC1'
-import ParentWithHOC1 from './components/16-HOC/2-WithHOC/ParentWithHOC1'
+// import ParentWithHOC1 from './components/16-HOC/2-WithHOC/ParentWithHOC1'
+import ParentPure1 from './components/17-pureComponents/ParentPure1';
 function App() {
   return (
     <div className="container mx-auto">
-      <ParentWithHOC1/>
+      <ParentPure1/>
+      {/* <ParentWithHOC1/> */}
       {/* <ParentWithoutHOC1/> */}
       {/* <ParentContext1/> */}
       {/* <Columns3/> */}
