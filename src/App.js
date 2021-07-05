@@ -1,5 +1,5 @@
 import './App.css';
-import ParentMemo1 from './components/18-memo/ParentMemo1';
+// import ParentMemo1 from './components/18-memo/ParentMemo1';
 // import LifeCycleParent1 from './components/12-lifecycle/LifeCycleParent1';
 // import List from './components/9-list/1-List';
 // import ShortCircuit from './components/8-Conditional_rendering/ShortCircuit';
@@ -36,10 +36,15 @@ import ParentMemo1 from './components/18-memo/ParentMemo1';
 // import ParentWithoutHOC1 from './components/16-HOC/1-WithoutHOC/ParentWithoutHOC1'
 // import ParentWithHOC1 from './components/16-HOC/2-WithHOC/ParentWithHOC1'
 // import ParentPure1 from './components/17-pureComponents/ParentPure1';
+import ParentRouter from './components/19-Router/SimpleRouting/ParentRouter1'
+// import ParentRouting2 from './components/19-Router/NestedRouting/ParentRouting2'
 function App() {
   return (
     <div className="container mx-auto">
-      <ParentMemo1/>
+
+      {/* <ParentRouting2/> */}
+      <ParentRouter/>
+      {/* <ParentMemo1/> */}
       {/* <ParentPure1/> */}
       {/* <ParentWithHOC1/> */}
       {/* <ParentWithoutHOC1/> */}
