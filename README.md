@@ -157,3 +157,31 @@
     1. Higher Order Components are the functions which takes a component as argument and returna a new enhanced component
 27. Pure components are used to render a component if the state or props is changed
 28. Memo also works just like pure component but its for functional component
+# React Hooks
+
+## What are hooks
+1. New feature 16.8 which allows react features without useing class
+2. React Component State (Previosly it was only used by class component)
+3. Hooks don't work in class components
+
+## Why Hooks
+1. We don't bother ' this ' keyword anymore
+2. They share stateful logic in better way without changing component herichy(not like HOC and render props)
+3. Code is organized same code in one place (learn in lifecyle problem)
+
+
+## Important points
+1. its Optional
+2. don't use hooks in classes
+## Topics
+
+29. useState (with bad and best practice)
+30. useState with Object, using Object as state variable
+31. in class component state should be an object but in functional component
+we can use either number, boolean , object or array etc.
+32. useEffect is replacement for componentDidMount, componentDidUpdate, componentWillUnmount
+33. useEffect runs after every render
+34. useEffect on Every render might rise performance problem
+and to sort out this problem we add array or states or props which we want
+to check wether any change happen in it or not, if yes then re-render otherwise don't render.
+35. Effect run only once if we pass an empty array
