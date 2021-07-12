@@ -36,14 +36,19 @@ import './App.css';
 // import ParentWithoutHOC1 from './components/16-HOC/1-WithoutHOC/ParentWithoutHOC1'
 // import ParentWithHOC1 from './components/16-HOC/2-WithHOC/ParentWithHOC1'
 // import ParentPure1 from './components/17-pureComponents/ParentPure1';
-import ParentRouter from './components/19-Router/SimpleRouting/ParentRouter1'
+// import ParentRouter from './components/19-Router/SimpleRouting/ParentRouter1'
+// import ParentState from './components/20-useState/ParentState';
+// import WithObject from './components/21-useStateWithObject/WithObject';
 // import ParentRouting2 from './components/19-Router/NestedRouting/ParentRouting2'
+import WithArray from './components/22-useStateWithArray/WithArray'
 function App() {
   return (
     <div className="container mx-auto">
-
+      <WithArray/>
+      {/* <WithObject/> */}
+      {/* <ParentState/> */}
       {/* <ParentRouting2/> */}
-      <ParentRouter/>
+      {/* <ParentRouter/> */}
       {/* <ParentMemo1/> */}
       {/* <ParentPure1/> */}
       {/* <ParentWithHOC1/> */}
