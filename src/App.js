@@ -1,4 +1,5 @@
 import './App.css';
+// import ParentCondition from './components/24-ConditionalEffect/ParentCondition';
 // import ParentMemo1 from './components/18-memo/ParentMemo1';
 // import LifeCycleParent1 from './components/12-lifecycle/LifeCycleParent1';
 // import List from './components/9-list/1-List';
@@ -40,11 +41,14 @@ import './App.css';
 // import ParentState from './components/20-useState/ParentState';
 // import WithObject from './components/21-useStateWithObject/WithObject';
 // import ParentRouting2 from './components/19-Router/NestedRouting/ParentRouting2'
-import WithArray from './components/22-useStateWithArray/WithArray'
+// import WithArray from './components/22-useStateWithArray/WithArray'
+import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 function App() {
   return (
     <div className="container mx-auto">
-      <WithArray/>
+      <ParentOnce/>
+      {/* <ParentCondition/> */}
+      {/* <WithArray/> */}
       {/* <WithObject/> */}
       {/* <ParentState/> */}
       {/* <ParentRouting2/> */}
@@ -144,3 +148,4 @@ function App() {
 }
 
 export default App;
+
