@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
-import GetMothod from './GetMothod'
+// import GetMothod from './GetMothod'
+import PostMethod from './PostMethod'
 
 class ParentMethods extends Component {
     render() {
         return (
             <div>
-                <GetMothod/>
+                {/* <GetMothod/> */}
+                <PostMethod/>
             </div>
         )
     }
