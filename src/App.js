@@ -1,4 +1,10 @@
 import './App.css';
+// import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
+import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
+// import FetchButton from './components/27-HttpMothods/FunctionalComp/FetchButton';
+// import PostData from './components/27-HttpMothods/FunctionalComp/PostData';
+// import GetFunction from './components/27-HttpMothods/FunctionalComp/GetFunction';
+// import GetIndiv from './components/27-HttpMothods/FunctionalComp/GetIndiv';
 // import Parentclean from './components/26-EffectCleanup/Parentclean';
 // import ParentCondition from './components/24-ConditionalEffect/ParentCondition';
 // import ParentMemo1 from './components/18-memo/ParentMemo1';
@@ -44,11 +50,17 @@ import './App.css';
 // import ParentRouting2 from './components/19-Router/NestedRouting/ParentRouting2'
 // import WithArray from './components/22-useStateWithArray/WithArray'
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
-import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
+// import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 function App() {
   return (
     <div className="container mx-auto">
-      <ParentMethods/>
+      <PutPost/>
+      {/* <DeletePost/> */}
+      {/* <PostData/> */}
+      {/* <FetchButton/> */}
+      {/* <GetIndiv/> */}
+      {/* <GetFunction/> */}
+      {/* <ParentMethods/> */}
       {/* <Parentclean/> */}
       {/* <ParentOnce/> */}
       {/* <ParentCondition/> */}
