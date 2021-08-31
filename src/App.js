@@ -1,6 +1,7 @@
 import './App.css';
+import Reduxparent from './components/28-redux/Reduxparent';
 // import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
-import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
+// import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
 // import FetchButton from './components/27-HttpMothods/FunctionalComp/FetchButton';
 // import PostData from './components/27-HttpMothods/FunctionalComp/PostData';
 // import GetFunction from './components/27-HttpMothods/FunctionalComp/GetFunction';
@@ -53,8 +54,9 @@ import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 function App() {
   return (
-    <div className="container mx-auto">
-      <PutPost/>
+    // <div className="container mx-auto">
+    <div>
+      {/* <PutPost/> */}
       {/* <DeletePost/> */}
       {/* <PostData/> */}
       {/* <FetchButton/> */}
@@ -159,6 +161,7 @@ function App() {
       {/* <LifeCycleA/> */}
 
       {/* <Fragment1/> */}
+      <Reduxparent/>
     </div>
   );
 }
