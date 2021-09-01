@@ -52,6 +52,9 @@ import Reduxparent from './components/28-redux/Reduxparent';
 // import WithArray from './components/22-useStateWithArray/WithArray'
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
+import { Provider } from "react-redux";
+import store from "./components/28-redux/redux/store";
+
 function App() {
   return (
     // <div className="container mx-auto">
@@ -161,7 +164,10 @@ function App() {
       {/* <LifeCycleA/> */}
 
       {/* <Fragment1/> */}
+      
+      <Provider store={store}>
       <Reduxparent/>
+      </Provider>
     </div>
   );
 }
