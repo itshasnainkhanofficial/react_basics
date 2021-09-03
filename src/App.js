@@ -1,5 +1,5 @@
 import './App.css';
-import Reduxparent from './components/28-redux/Reduxparent';
+// import Reduxparent from './components/28-redux/Reduxparent';
 // import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
 // import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
 // import FetchButton from './components/27-HttpMothods/FunctionalComp/FetchButton';
@@ -53,7 +53,9 @@ import Reduxparent from './components/28-redux/Reduxparent';
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 import { Provider } from "react-redux";
-import store from "./components/28-redux/redux/store";
+import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
+// import store from "./components/28-redux/redux/store";
+import store from './components/29-redux_toolkit/store'
 
 function App() {
   return (
@@ -165,8 +167,13 @@ function App() {
 
       {/* <Fragment1/> */}
       
-      <Provider store={store}>
+      {/* <Provider store={store}>
       <Reduxparent/>
+      </Provider> */}
+
+
+      <Provider store={store}>
+      <ToolkitParent/>
       </Provider>
     </div>
   );
