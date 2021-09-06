@@ -53,11 +53,19 @@ import './App.css';
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 import { Provider } from "react-redux";
-import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
+// import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
+import ThunkParent from './components/30-redux_Thunk/ThunkParent';
 // import store from "./components/28-redux/redux/store";
-import store from './components/29-redux_toolkit/store'
+// import store from './components/29-redux_toolkit/store'
+import store from './components/30-redux_Thunk/store'
+import { fetchUsers } from './components/30-redux_Thunk/features/users/usersSlice'
+// fetching users only one time
+store.dispatch(fetchUsers())
 
+// ended
 function App() {
+
+
   return (
     // <div className="container mx-auto">
     <div>
@@ -172,9 +180,15 @@ function App() {
       </Provider> */}
 
 
-      <Provider store={store}>
+      {/* <Provider store={store}>
       <ToolkitParent/>
+      </Provider> */}
+
+
+      <Provider store={store}>
+      <ThunkParent/>
       </Provider>
+      
     </div>
   );
 }
