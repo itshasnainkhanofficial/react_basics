@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-require('./components/30-redux_Thunk/api/server')
+// require('./components/30-redux_Thunk/api/server')
 ReactDOM.render(
   <React.StrictMode>
     

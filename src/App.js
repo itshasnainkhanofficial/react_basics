@@ -54,13 +54,17 @@ import './App.css';
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 import { Provider } from "react-redux";
 // import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
-import ThunkParent from './components/30-redux_Thunk/ThunkParent';
+// import ThunkParent from './components/30-redux_Thunk/ThunkParent';
 // import store from "./components/28-redux/redux/store";
 // import store from './components/29-redux_toolkit/store'
-import store from './components/30-redux_Thunk/store'
-import { fetchUsers } from './components/30-redux_Thunk/features/users/usersSlice'
-// fetching users only one time
-store.dispatch(fetchUsers())
+// import store from './components/30-redux_Thunk/store'
+// import { fetchUsers } from './components/30-redux_Thunk/features/users/usersSlice'
+// import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
+// // fetching users only one time
+// store.dispatch(fetchUsers())
+
+import store from './components/31-core_redux_thunk/redux/store'
+import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
 
 // ended
 function App() {
@@ -185,10 +189,16 @@ function App() {
       </Provider> */}
 
 
-      <Provider store={store}>
+      {/* <Provider store={store}>
       <ThunkParent/>
+      </Provider> */}
+
+
+
+      <Provider store={store}>
+        <ParentCoreReduxThunk/>
       </Provider>
-      
+
     </div>
   );
 }
