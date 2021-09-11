@@ -1,4 +1,5 @@
 import './App.css';
+import ParentTypeScript from './components/32-react_typescript/ParentTypeScript0';
 // import Reduxparent from './components/28-redux/Reduxparent';
 // import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
 // import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
@@ -52,7 +53,9 @@ import './App.css';
 // import WithArray from './components/22-useStateWithArray/WithArray'
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
-import { Provider } from "react-redux";
+
+
+// import { Provider } from "react-redux";
 // import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
 // import ThunkParent from './components/30-redux_Thunk/ThunkParent';
 // import store from "./components/28-redux/redux/store";
@@ -63,8 +66,8 @@ import { Provider } from "react-redux";
 // // fetching users only one time
 // store.dispatch(fetchUsers())
 
-import store from './components/31-core_redux_thunk/redux/store'
-import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
+// import store from './components/31-core_redux_thunk/redux/store'
+// import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
 
 // ended
 function App() {
@@ -195,9 +198,12 @@ function App() {
 
 
 
-      <Provider store={store}>
+      {/* <Provider store={store}>
         <ParentCoreReduxThunk/>
-      </Provider>
+      </Provider> */}
+
+      <ParentTypeScript/>
+
 
     </div>
   );
