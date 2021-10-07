@@ -1,5 +1,5 @@
 import './App.css';
-import ParentTypeScript from './components/32-react_typescript/ParentTypeScript0';
+// import ParentTypeScript from './components/32-react_typescript/ParentTypeScript0';
 // import Reduxparent from './components/28-redux/Reduxparent';
 // import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
 // import PutPost from './components/27-HttpMothods/FunctionalComp/PutPost';
@@ -57,10 +57,10 @@ import ParentTypeScript from './components/32-react_typescript/ParentTypeScript0
 
 // import { Provider } from "react-redux";
 // import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
-// import ThunkParent from './components/30-redux_Thunk/ThunkParent';
-// import store from "./components/28-redux/redux/store";
 // import store from './components/29-redux_toolkit/store'
+import ThunkParent from './components/30-redux_Thunk/ThunkParent';
 // import store from './components/30-redux_Thunk/store'
+// import store from "./components/28-redux/redux/store";
 // import { fetchUsers } from './components/30-redux_Thunk/features/users/usersSlice'
 // import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
 // // fetching users only one time
@@ -186,15 +186,14 @@ function App() {
       <Reduxparent/>
       </Provider> */}
 
-
       {/* <Provider store={store}>
       <ToolkitParent/>
       </Provider> */}
 
 
-      {/* <Provider store={store}>
+      {/* <Provider store={store}> */}
       <ThunkParent/>
-      </Provider> */}
+      {/* </Provider> */}
 
 
 
@@ -202,7 +201,7 @@ function App() {
         <ParentCoreReduxThunk/>
       </Provider> */}
 
-      <ParentTypeScript/>
+      {/* <ParentTypeScript/> */}
 
 
     </div>
