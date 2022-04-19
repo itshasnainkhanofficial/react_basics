@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 // import ParentTypeScript from './components/32-react_typescript/ParentTypeScript0';
 // import Reduxparent from './components/28-redux/Reduxparent';
 // import DeletePost from './components/27-HttpMothods/FunctionalComp/DeletePost';
@@ -22,7 +22,7 @@ import './App.css';
 // import ArrowFunctionForFunction from './components/6-eventBinding/ArrowFunctionForFunction4';
 // import OfficialDocApprch from './components/6-eventBinding/OfficialDocApprch';
 // import ArrowFuncInRender from './components/6-eventBinding/ArrowFuncInRender3';
-// import FirstSolution from './components/6-eventBinding/BindingInRender2'; 
+// import FirstSolution from './components/6-eventBinding/BindingInRender2';
 // import ClassEvent from './components/5-event-handling/ClassEvent';
 // import Problem from './components/6-eventBinding/Problem1';
 // import Functionalevent from './components/5-event-handling/functionalevent';
@@ -54,7 +54,6 @@ import './App.css';
 // import ParentOnce from './components/25-EffectOnlyOnce/ParentOnce'
 // import ParentMethods from './components/27-HttpMothods/ClassComp/ParentMethods'
 
-
 import { Provider } from "react-redux";
 // import ToolkitParent from './components/29-redux_toolkit/ToolkitParent';
 // import store from './components/29-redux_toolkit/store'
@@ -68,12 +67,12 @@ import { Provider } from "react-redux";
 
 // import store from './components/31-core_redux_thunk/redux/store'
 // import ParentCoreReduxThunk from './components/31-core_redux_thunk/ParentCoreReduxThunk';
-import ReduxReviewParent from './components/33-redux-review/Redux-review-parent';
-import store from './components/33-redux-review/redux/store'
+// import ReduxReviewParent from './components/33-redux-review/Redux-review-parent';
+// import store from './components/33-redux-review/redux/store'
+import TKR from "./components/34-reduxToolkitReview/ReduxToolkitReviewParent";
+import store from "./components/34-reduxToolkitReview/redux/store";
 // ended
 function App() {
-
-
   return (
     // <div className="container mx-auto">
     <div>
@@ -116,7 +115,6 @@ function App() {
         <button className="bg-blue-400 rounded-full px-2 hover:bg-blue-500 text-white outline-none">Get Answer</button>
       </Functiongreet> */}
 
-
       {/* props using class component */}
       {/* use self closing tag when there is no content within tag */}
       {/* <Classgreet name="Hasnain"/> 
@@ -129,7 +127,6 @@ function App() {
       <Classgreet name="Ali" question="Are you a Student?">
         <button className="bg-blue-400 rounded-full px-2 hover:bg-blue-500 text-white outline-none">Get Answer</button>
       </Classgreet> */}
-
 
       {/* by exact same name */}
       {/* <Functiongreet name="Fazal" question="Are you a doctor?"></Functiongreet> */}
@@ -144,16 +141,15 @@ function App() {
 
       {/* <Greet name="Hasnain" lastname="khan"/> */}
       {/* <ClassGreet name="Hasnain" lastname="khan"/> */}
-      
+
       {/* <Functionalevent /> */}
       {/* <ClassEvent/> */}
       {/* <Problem/> */}
       {/* <FirstSolution/> */}
       {/* <ArrowFuncInRender/> */}
-      
+
       {/* <OfficialDocApprch/> */}
       {/* <ArrowFunctionForFunction/> */}
-
 
       {/* using the following parentcompnent i want to call method from parent to child component*/}
 
@@ -166,23 +162,22 @@ function App() {
       {/* <IfElese/> */}
 
       {/* <ElementVariables/> */}
-      
+
       {/* <Ternary/> */}
       {/* <ShortCircuit/> */}
-      
+
       {/* <List/> */}
 
       {/* <StylesheetParent0/> */}
 
       {/* <Form1/> */}
-      
 
       {/* <LifeCycleParent1/> */}
 
       {/* <LifeCycleA/> */}
 
       {/* <Fragment1/> */}
-      
+
       {/* <Provider store={store}>
       <Reduxparent/>
       </Provider> */}
@@ -191,12 +186,9 @@ function App() {
       <ToolkitParent/>
       </Provider> */}
 
-
       {/* <Provider store={store}> */}
       {/* <ThunkParent/> */}
       {/* </Provider> */}
-
-
 
       {/* <Provider store={store}>
         <ParentCoreReduxThunk/>
@@ -204,14 +196,15 @@ function App() {
 
       {/* <ParentTypeScript/> */}
 
-      <Provider store={store}>
+      {/* <Provider store={store}>
          <ReduxReviewParent/>
+      </Provider> */}
+
+      <Provider store={store}>
+        <TKR />
       </Provider>
-
-
     </div>
   );
 }
 
 export default App;
-
